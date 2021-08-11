@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_over"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.OverFragment">
+
+    <TextView
+        android:id="@+id/tv_oh_tidak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Oh, tidak!"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_wrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/wrong"
+        app:layout_constraintEnd_toEndOf="@+id/tv_oh_tidak"
+        app:layout_constraintStart_toStartOf="@+id/tv_oh_tidak"
+        app:layout_constraintTop_toBottomOf="@+id/tv_oh_tidak" />
+
+    <TextView
+        android:id="@+id/tv_brief_wrong"
+        android:layout_width="291dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/poppins"
+        android:text="Maaf anda salah, silahkan coba lagi"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/iv_wrong"
+        app:layout_constraintStart_toStartOf="@+id/iv_wrong"
+        app:layout_constraintTop_toBottomOf="@+id/iv_wrong" />
+
+    <Button
+        android:id="@+id/btn_coba_lagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape_round"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:text="Coba lagi"
+        app:layout_constraintEnd_toEndOf="@+id/tv_brief_wrong"
+        app:layout_constraintStart_toStartOf="@+id/tv_brief_wrong"
+        app:layout_constraintTop_toBottomOf="@+id/tv_brief_wrong" />
+</androidx.constraintlayout.widget.ConstraintLayout>
