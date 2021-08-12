@@ -89,6 +89,7 @@ class QuizFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
     }
 
     override fun onCreateView(
@@ -146,7 +147,7 @@ class QuizFragment : Fragment() {
         answers.shuffle()
 
         (activity as AppCompatActivity).supportActionBar?.title =
-            getString(R.string.title_quezz, questionIndex + 1, numberIndicatorQuestion)
+            getString(R.string.title_siroh_nabs, questionIndex + 1, numberIndicatorQuestion)
     }
 
 
