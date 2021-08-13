@@ -16,76 +16,166 @@ class QuizFragment : Fragment() {
 
     private val questions: MutableList<Quiz> = mutableListOf(
         Quiz(
-            text = "Siapakah nama ayah nabi Muhammad ?",
-            answers = listOf("Abdullah", "Ali", "Abu Jahal", "Abu Muthallib")
+            text = "Siapakah nama nabi dan manusia pertama ?",
+            answers = listOf("Nabi Adam", "Nabi Nuh", "Nabi Hud", "Nabi Yahya")
         ),
         Quiz(
-            text = "Tahun apakah Nabi Muhammad SAW lahir ?",
-            answers = listOf("Gajah", "Ular", "Kambing", "Unta")
+            text = "Berapakah tinggi Nabi Adam ?",
+            answers = listOf("60 Hasta", "50 Hasta", "70 Hasta", "80 Hasta")
         ),
         Quiz(
-            text = "Dakwah Nabi Muhammad SAW di Makkah selama berapa tahun ?",
-            answers = listOf("13", "14", "12", "11")
+            text = "Siapakah pasangan Nabi Adam ?",
+            answers = listOf("Hawa", "Aisyah", "Khadijah", "Annisa")
         ),
         Quiz(
-            text = "Siapakah nama sahabat yang terkenal di langit ?",
+            text = "Buah terlarang apa yang dimakan Adam dan Hawa di surga ?",
             answers = listOf(
-                "Uwais Al Qarni",
-                "Hamzah bin Abdul munthalib",
-                "Khalid bin Walid",
-                "Aburrahman bin Auf"
+                "Khuldi",
+                "Kholid",
+                "Khalid",
+                "Khawailid"
             )
         ),
         Quiz(
-            text = "Siapa menantu Nabi Muhammad SAW yang juga menjadi khalifah ?",
+            text = "Siapa nabi yang terkenal dengan kecerdasannya?",
             answers = listOf(
-                "Ali bin Abi Tholib",
-                "Abu Bakar Ash-Shiddiq",
-                "Utsman bin Affan",
-                "Umar bin Khattab"
+                "Nabi Idris",
+                "Nabi Nuh",
+                "Nabi Ayyub",
+                "Nabi Hud"
             )
         ),
         Quiz(
-            text = "Siapakah nama sahabat yang menemani Rasulullah pada waktu hijrah pertama kali ke Madinah ?",
+            text = "Siapakah nama nabi yang menjadi manusia pertama yang bisa baca dan menulis ?",
             answers = listOf(
-                "Ali bin Abi Tholib",
-                "Abu Bakar As-Shiddiq",
-                "Utsman bin Affan",
-                "Umar bin Khattab"
+                "Nabi Idris",
+                "Nabi Nuh",
+                "Nabi Ayyub",
+                "Nabi Hud"
             )
         ),
         Quiz(
-            text = "Kapan Nabi Muhammad lahir ?",
+            text = "Siapakah nama nabi yang pernah merasakan sakaratul maut dan dihidupkan kembali atas izin Allah. ?",
+            answers = listOf(
+                "Nabi Idris",
+                "Nabi Nuh",
+                "Nabi Musa",
+                "Nabi Isa"
+            )
+        ),
+        Quiz(
+            text = "Nabi Nuh termasuk golongan ?",
+            answers = listOf(
+                "Ulul Azmi",
+                "Ulul Albab",
+                "Azmiul Albab",
+                "Babul fashli"
+            )
+        ),
+        Quiz(
+            text = "Nabi Nuh adalah yang kaumnya mendapatkan adzab",
+            answers = listOf(
+                "Banjir besar",
+                "Badai dengan awan yang penuh petir",
+                "Hujan belalang",
+                "Muntah darah"
+            )
+        ),
+        Quiz(
+            text = "Apa nama kaum Nabi Hud ?",
+            answers = listOf("Ad", "Tsamud", "Hawariyyin", "Sodom")
+        ),
+        Quiz(
+            text = "Nabi Salih adalah yang kaumnya mendapatkan adzab ...",
+            answers = listOf(
+                "Badai dengan awan yang penuh petir",
+                "Banjir besar",
+                "Hujan belalang",
+                "Muntah darah"
+            )
+        ),
+        Quiz(
+            text = "Apa nama kaum Nabi Saleh ?",
+            answers = listOf("Tsamud", "Ad", "Hawariyyin", "Sodom")
+        ),
+        Quiz(
+            text = "Apa salah satu mukjizat Nabi Salih ?",
+            answers = listOf(
+                "Memunculkan unta betina dari batu besar",
+                "Menghidupkan orang yang sudah mati",
+                "Membelah lautan",
+                "Mampu menurunkan ujan"
+            )
+        ),
+        Quiz(
+            text = "Siapakah nabi penutup ?",
+            answers = listOf(
+                "Nabi Muhammad",
+                "Nabi Ibrahim",
+                "Nabi Ilyasa",
+                "Nabi Yunus"
+            )
+        ),
+        Quiz(
+            text = " Masjid apakah yang pertama kali dibangun oleh Nabi Muhammad ?",
+            answers = listOf(
+                "Masjid Kuba",
+                "Masjid Nabawi",
+                "Masjid Aqsa",
+                "Masjid Haram"
+            )
+        ),
+        Quiz(
+            text = "Dimanakah Nabi Muhammad Saw bersembunyi ketika dikejar oleh kafir Quraisy ?",
+            answers = listOf(
+                "Gua Tsur",
+                "Abwa",
+                "Gua Hira",
+                "Jabal rahman"
+            )
+        ),
+        Quiz(
+            text = " Tahun dimana Siti Khadijah isteri tercinta Rasul dan kakeknya Abdul Muthallib wafat disebut ?",
+            answers = listOf(
+                "Aamul Huzni",
+                "Aamul Jamil",
+                "Aamul Jamal",
+                "Aamul Fitri"
+            )
+        ),
+        Quiz(
+            text = "Tahun kelahiran Nabi Muhammad Saw disebut dengan Tahun Gajah karena apa ?",
+            answers = listOf(
+                "Ada pasukan gajah yang hendak menghancurkan ka'bah",
+                "ada perang gajah",
+                "Diadakannya festival gajah",
+                "Ada pasukan gajah yang hendak menyerang penduduk Mekkah"
+            )
+        ),
+        Quiz(
+            text = "Pada tanggal berapa Rasulullah dilahirkan ?",
             answers = listOf(
                 "12 Rabiul Awal",
-                "10 Rabiul Akhir",
+                "13 Rabiul Awal",
                 "12 Rabiul Akhir",
-                "10 Rabiul Awal"
+                "13 Rabiul Akhir"
             )
         ),
         Quiz(
-            text = "Siapa nama kakek Nabi Muhammad ?",
+            text = "Peristiwa pasukan gajah diceritakan dalam Al-Qur'an Surah apa ?",
             answers = listOf(
-                "Abdul Mutholib",
-                "Abu Tholib",
-                "Abu Jahal",
-                "Abu Lahab"
+                "Al-Fil",
+                "Al-Kautsar",
+                "Al-Humazah",
+                "Al-Maun"
             )
-        ),
-        Quiz(
-            text = "Daerah manakah Abdurahman bin Auf berasal ?",
-            answers = listOf("Bani Zuhrah", "Bani Israil", "Yaman", "Makkah")
-        ),
-        Quiz(
-            text = "Siapa nama paman Nabi Muhammad ?",
-            answers = listOf("Abu Tholib", "Abdul Mutholib", "Khalid bin Walid", "Uwais Al Qarni")
         )
     )
 
     private var questionIndex = 0
     lateinit var currentQuestion: Quiz
     lateinit var answers: MutableList<String>
-    private val numberIndicatorQuestion = Math.min((questions.size + 1) /2, 5)
+    private val numberIndicatorQuestion = Math.min((questions.size + 1) / 2, 5)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
