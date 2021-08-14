@@ -45,7 +45,8 @@
         tools:layout="@layout/fragment_won">
         <action
             android:id="@+id/action_wonFragment_to_welcomeFragment"
-            app:destination="@id/welcomeFragment" />
+            app:destination="@id/welcomeFragment"
+            app:enterAnim="@anim/pop_out" />
     </fragment>
     <fragment
         android:id="@+id/overFragment"
@@ -54,7 +55,8 @@
         tools:layout="@layout/fragment_over">
         <action
             android:id="@+id/action_overFragment_to_welcomeFragment"
-            app:destination="@id/welcomeFragment" />
+            app:destination="@id/welcomeFragment"
+            app:enterAnim="@anim/pop_out" />
     </fragment>
     <fragment
         android:id="@+id/materiFragment"
